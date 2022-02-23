@@ -19,3 +19,10 @@ let dogFlip = document.querySelectorAll('.dog-image')
 for(let i = 0; i <dogFlip.length; i++) {
     dogFlip[i].style.transform = 'rotate(180deg)'
 }
+
+let dogDescriptions = document.querySelectorAll('.dog-description')
+for (let i = 0; i < dogDescriptions.length; i++) {
+    dogDescriptions[i].style.textAlign = 'right';
+    dogDescriptions[i].style.backgroundColor = 'pink';
+    dogDescriptions[i].style.color = "red"
+}
